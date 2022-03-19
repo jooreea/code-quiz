@@ -1,0 +1,7 @@
+var playerInitials = document.querySelector("#player-initials").value;
+localStorage.setItem("player-initials", playerInitials);
+var getPlayerInitials = localStorage.getItem("player-initials");
+
+var player = document.querySelector("#player")
+var score = document.querySelector("#score")
+

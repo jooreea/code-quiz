@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    color: #d2dce6;
+    background-color: #181c20;
+    text-align: center;
+  }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#view-highscores {
+    font-weight: lighter;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.time {
+    position: fixed;
+    top: 5px;
+    right: 15px
+}
+
+button {
+    color: #d2dce6;
+    background-color: #8800a3;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 50px;
+    border: none;
+    border-top: 5px dotted;
+    width: 90%;
+}
+
+.label-tx {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#player-initials {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    height: 44px;
+    width: 108px;
+    margin: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    text-align: left;
+}
+
+th, td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+}
+
+td {
+    padding-left: 3px;
+}
+
+.end-choices {
+    margin-top: 40px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Coding Quiz Challenge</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <nav>
+            <h3 id ="view-highscores">View Highscores</h3>
+            <h2 class="time"></h2>
+        </nav>
+        <main>
+            <h1 id="title">Coding Quiz Challenge</h1>
+            <h2 id="prompt">
+                Try to answer the following code-related questions within the time 
+                limit. Keep in mind that incorrect answers will penalize your score 
+                time by ten seconds.
+            </h2>
+            <button id="start-quiz">Start Quiz</button>
+            <div class="choices">
+                <button id="choice1"></button>
+                <button id="choice2"></button>
+                <button id="choice3"></button>
+                <button id="choice4"></button>
+            </div>
+            <div id="eval-alert">
+                <hr>
+                <h3 id="eval-text"></h3>
+            </div>
+            <div class="completion-form">
+                <h2 id="completion-alert"></h2>
+                <label for="player-initials" id="intials-label" class="label-tx">Enter Initials: </label>
+                <input id="player-initials" />
+                <button id="submit-button">Submit</button>
+            </div>
+            <h2 id="score-title">High Scores</h2>
+            <table class = "center" id = "player-stats"></table>
+            <div class="end-choices">
+                <button id="go-back">Go Back</button>
+                <button id="clear-scores">Clear Scores</button>
+            </div>
+        </main>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
